@@ -20,7 +20,7 @@ nav li a {
 
 
 header {
-        background-color: #471743;
+        background-color: #	padding: 1em;;
         color: #d5d5d5;
         width: 60%;
         text-align: center;
@@ -39,6 +39,7 @@ h3, p {
 
 figure {
 	max-width: 100%;
+	padding: 1em;
 }
 
 a {
@@ -51,13 +52,16 @@ a {
 @media only screen and (min-width:769px) {
 figure {
 	width:25%;
-	display:inline-block;
+	padding: 1em;
 }
 
 figcaption {
-	display:none;
+	visibility:hidden;
 }
 
 figure:hover + figcaption {
-	display: block;
+	visibility: visible;
+	color: d5d5d5;
+	background-color:#471743;
+	
 }
