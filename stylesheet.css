@@ -1,1 +1,21 @@
+/* Style sheet created by: Thaís Emrich Henriques, 04/10/2021 */
 
+/* Styles for Mobile Layout */
+
+ nav {
+        background-color: #FFFFFF;
+        color: #000000;
+        text-align: left;
+        font-size: 1em;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+        object-position: bottom;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #000000;
+	}
