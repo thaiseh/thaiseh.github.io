@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BTS Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="game.css"> 
+        <script src="js/game.js"></script>
+        <script src="js/maknae.js"></script>
+        <script src="js/hyung.js"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <p>This is a BTS game.</p>
+            <h2>Choose your character!</h2>
+        </div>
+        <div class = "interface">
+            <a href="#" onclick="GameManager.setGameStart('JIMIN')">
+                <img src="img/maknae/JIMIN.jpg" alt="JIMIN">
+                <div>
+                    <h3>JIMIN</h3>
+                    <p>JIMIN has lower health, but higher stamina and speed.</p>
+                </div>
+
+            </a>
+            <a href="#" onclick="GameManager.setGameStart('JUNGKOOK')">
+                <img src="img/maknae/JUNGKOOK.jpg" alt="JUNGKOOK">
+                <div>
+                    <h3>JUNGKOOK</h3>
+                    <p>JUNGKOOK has higher health and stamina, but is slow.</p>
+                </div>
+
+            </a>
+            <a href="#" onclick="GameManager.setGameStart('V')">
+                <img src="img/maknae/V.jpg" alt="V">
+                <div>
+                    <h3>V</h3>
+                    <p>V has high speed and health, but low stamina.</p>
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class = "action">
+
+        </div>
+        <div class = "arena">
+            <h2>Arena!</h2>
+
+        </div>
+        <div class = "hyung">
+
+        </div>
+    </body>
+    
+  </html>

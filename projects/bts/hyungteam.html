@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BTS Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="game.css"> 
+        <script src="js/game.js"></script>
+        <script src="js/maknae.js"></script>
+        <script src="js/hyung.js"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <p>This is a BTS game.</p>
+            <h2>Choose your character!</h2>
+        </div>
+        <div class = "interface">
+            <a href="#" onclick="GameManager.setGameStart('JIN')">
+                <img src="img/hyung/JIN.jpg" alt="JIN">
+                <div>
+                    <h3>JIN</h3>
+                    <p>JIN has lower health, but higher stamina and speed.</p>
+                </div>
+
+            </a>
+            <a href="#" onclick="GameManager.setGameStart('SUGA')">
+                <img src="img/hyung/SUGA.jpg" alt="SUGA">
+                <div>
+                    <h3>SUGA</h3>
+                    <p>SUGA has higher health and stamina, but is slow.</p>
+                </div>
+
+            </a>
+            <a href="#" onclick="GameManager.setGameStart('RM')">
+                <img src="img/hyung/RM.jpg" alt="RM">
+                <div>
+                    <h3>RM</h3>
+                    <p>RM has high speed and health, but low stamina.</p>
+                </div>
+
+            </a>
+            <a href="#" onclick="GameManager.setGameStart('JHOPE')">
+                <img src="img/hyung/JHOPE.jpg" alt="JHOPE">
+                <div>
+                    <h3>JHOPE</h3>
+                    <p>JHOPE has high speed and health, but low stamina.</p>
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class = "action">
+
+        </div>
+        <div class = "arena">
+            <h2>Arena!</h2>
+
+        </div>
+        <div class = "hyung">
+
+        </div>
+    </body>
+    
+  </html>
