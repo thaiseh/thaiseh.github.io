@@ -3,9 +3,9 @@
 /* Styles for Mobile Layout */
 
  nav {
-        background-color: #FFFFFF;
-        color: #000000;
-        text-align: left;
+        background-color: #471743;
+        color: #FFFFFFF;
+        text-align: right;
         font-size: 1em;
         font-family: "Arial Black", Gadget, sans-serif;
     }
@@ -22,7 +22,7 @@
    header {
         background-color: #471743;
         color: #d5d5d5;
-        padding: 45em;
+        padding: 1em;
         width: 60%;
         text-align: center;
         font-size: 1em;
