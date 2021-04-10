@@ -1,0 +1,307 @@
+/* Style sheet created by: Thaís Emrich Henriques, 05/23/2020 */
+/* Styles for Mobile Layout */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+/* Style to create a fluid image*/
+img {
+	max-width: 100%;
+}
+
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Styles specifies padding and margins for unordered list*/
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nac li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation*/
+nav li {
+	background-color: #FF6600;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: .3em;
+	padding: .4em;
+}
+
+/* Style changes navigation link text to white and removes the underline*/
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* phone number was showing up with a weird underlining so this style is to remove that*/
+main a {
+	text-decoration: none;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+	border-top: solid 0.2em #FF6600; 
+	border-bottom: solid 0.2em #FF6600;
+	overflow: auto;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/*adds padding and aligns the text to the center in the section element*/
+section {
+	padding: 1%;
+	text-align: center;
+	border-radius: 1em;
+}
+
+/*aligns the text in the center and adds padding, margin and a line to the top of the article element*/
+article {
+	border-top: solid .2em #FF6600;
+	padding: 2%;
+	margin: 0.5%;
+	text-align: left;
+}
+
+/*aligns the text, changes the color, background color, font siz and adds margins and padding to the aside element */
+aside {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #FF6600;
+	font-size: 1.25em;
+	margin: 1em;
+	padding: 1em;
+}
+
+
+/* adds padding to the paragraphs within the div element*/
+div p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom:1em;
+	margin-top: .5em;
+}
+
+label {
+	display:block;
+}
+
+.button {
+	margin-bottom: .3em;
+	display: inline;
+}
+
+/* Style displays the mobile class*/
+.mobile {
+	display:inline;
+}
+
+/*hides desktop content for mobile layout*/
+	.desktop {
+	display:none;
+}
+
+
+
+
+/*tablet viewport*/
+@media only screen and (min-width:481px) {
+	/*this stile sets the image size to an appropriate size for tablet view and floats it to the left*/
+	img {
+		width: 25%;
+		float: left;
+	}
+
+	/* this style adds margin and padding to the paragraph in the header*/
+	header p {
+		margin-bottom: 4em;
+		padding-top: 1.5em;
+	}
+
+	/*this style adds padding and margins to the items in the navigation list and makes them display and float left and sets it to an appropriate size for tablet view*/
+	nav li {
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 23%;
+	}
+
+	/* this style adds a top margin to the main section so it isn't so close to the line below the nav section*/
+	main {
+		clear: left;
+		margin-top:12em;
+	}
+
+	/* this style changes the background color of the section element*/
+	section {
+		background-color: #FF6600;
+	}
+	/* changes the background color, removes the top border and adds rounded border and a bottom margin to the article element*/
+	 article {
+		background-color: #FFFFFF;
+		border-top: 0;
+		border-radius: 0 3em 3em 3em;
+		margin-bottom: 1em;
+	 }
+
+	/* changes the background color, color, aligns text to the center, adds a box shadow and rounded borders to the aside element*/
+	aside {
+		text-align: center;
+		color: #FF6600;
+		background-color: #FFFFFF;
+		box-shadow: 1em 1em 1em #000000;
+		border-radius: 8em;
+	}
+	table, th, td {
+		border: solid .1em #FF6600;
+		border-collapse: collapse;
+		padding: 1em;
+	}
+	caption {
+		font-size: 1.5em;
+		padding-bottom: 1em;
+
+	}
+
+	label {
+		float: left;
+		padding-right: .5em;
+		text-align: right;
+		width: 8em;
+	}
+
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display:inline;
+	}
+}
+
+
+/* desktop viewport*/
+@media only screen and (min-width:769px) {
+	/*this makes the container fill most of the page*/
+	#container {
+		width: 80%
+	}
+
+	/*removes a top margin to the nav section*/
+	nav {
+		margin-top: -5em;
+	}
+	/*adds margin and padding to the nav unordered list*/
+	nav ul {
+		margin: 0;
+		padding-left: .5%;
+		padding-right: .5%;
+
+	}
+	/*changes the background color, adds rounded corners, adds padding and margins and makes it an appropriate size for the items in the nav list*/
+	nav li {
+		background-color: #FFFFFF;
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 18%;
+	}
+	/* makes the links in the nav section this orange, size and adds padding*/
+	nav li a {
+		color: #FF6600;
+		display: inline-block;
+		padding: .7em;
+		font-size: 1.25em;
+	}
+	/* makes it so the link changes from orange to black and italic when u hover over it*/
+	nav li a:link {
+		color: #FF6600;
+	}
+	nav li a:hover {
+		color: #4C1F00;
+		font-style: italic;
+	}
+	/*adds a box with a brown shadow to the main element*/
+	main {
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em lightgrey;
+		margin-top:1em;
+		overflow: auto;
+		background-color: #FFFFFF;
+	}
+	
+	/*makes the section element float left and changes the width of it*/
+	section {
+		float: left;
+		width: 60%;
+	}
+
+	/* makes the aside element float right and changes the color background color and width of it*/
+	aside {
+		float: right;
+		width: 25%;
+		background-color: #FF6600;
+		COLOR: #FFFFFF;
+		box-shadow: 1em 1em 1em lightgrey;
+		margin-right: 3em;
+	}
+
+	table {
+		width: 80%;
+		margin-left:auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+	}
+
+	/* these 2 styles makes it so the mobile content does not appear and the desktop content does*/
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: inline;
+	}
+}
+
