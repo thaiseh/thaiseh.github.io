@@ -8,11 +8,17 @@
     }
 nav li {
 	list-style-type: none;
-	color: #d5d5d5;
 	display:inline;
+	padding: 1em;
+	margin: 1em.
+}
+
+nav li a {
+	color: #d5d5d5;
 	font-size: 2em;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
+
 
 header {
         background-color: #471743;
@@ -34,11 +40,15 @@ main {
 h3 {
 	color: d5d5d5;
 }
-	
 
 figure {
 	max-width: 100%;
 }
+
+a {
+	color: #d5d5d5;
+}
+
 
 
 /* Styles for DESKTOP Layout*/
