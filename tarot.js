@@ -49,6 +49,8 @@ function randomCard() {
       artist = "Kelly Clarkson";
       songLocation = "songs/Breaking Free - High School Musical - Lyrics.mp3";
       break;
+  }
       
 document.getElementById("output").innerHTML = '<p> Your card is the ' + cardName + '. The song that embodies this card, in my opinion, is ' + song + ' by ' + artist +
   '. You can listen to it below.</p> <br> <audio controls> <source src="'+ songLocation + '" type="audio/mp3"> Your browser does not support the audio element.</audio>';
+}
