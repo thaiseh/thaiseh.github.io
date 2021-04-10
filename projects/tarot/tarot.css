@@ -1,0 +1,575 @@
+/* Style sheet created by: Thaís Emrich Henriques, 05/23/2020 */
+
+/* Styles for Mobile Layout */
+
+ nav {
+        background-color: #FFFFFF;
+        color: #000000;
+        text-align: left;
+        font-size: 1em;
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+        object-position: bottom;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #000000;
+	}
+	
+	p {
+		font-size: 1em;
+	}
+
+    header {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 60%;
+        text-align: center;
+        font-size: 1em;
+		border-radius: .25em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2em;
+	}
+
+	dt {
+		font-weight: bold;
+		font-size: 2em;
+		padding: 1em;
+		text-align: left;
+	}
+
+	dd{
+		text-align: left;
+		font-size: 1.25em;
+		padding: 0;
+		margin:0;
+	}
+
+	dl img {
+	
+		width: 20%;
+		border-radius: .75em;
+		padding-left: 2em;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	audio {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 70%;
+		padding-top: 1em;
+	}
+
+	video {
+		width: 85%;
+		border-radius: .75em;
+		margin: auto;
+		
+	}
+	iframe {
+		width: 90%;
+		border-radius: .75em;
+		margin: auto;
+		}
+
+	input {
+		margin: 1em;
+		width: 30%;
+	}
+	
+	
+	textarea {
+		margin: 1em;
+	}
+
+	table, td, th{
+		border: 1px solid #FFFFFF;
+		border-collapse: collapse;
+	}
+
+	td{
+		width: 20%;
+		text-align: center ;
+		padding: .5em;
+	}
+
+	th {
+		text-align: center;
+		font-size: 1.2em;
+		padding: 1.5em;
+	}
+
+	ol {
+		text-align: left;
+	}
+
+	ol img {
+		width: 40%;
+		display: inline-block;
+
+	}
+	caption {
+		font-size: 1.2em;
+	}
+	td:first-child {
+		width: 5%;
+		font-weight: bold;
+	}
+	.desktop1 p {
+		font-size: 1em;
+	}
+
+	.desktop1 li {
+		font-size: 1em;
+	}
+
+	#brawl {
+		width: 100%;
+	}
+	.minor {
+		padding-left: 5em;
+	}
+    .nav {
+        display: inline-block;
+        float: top;
+    }
+
+    .desktop {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 70%;
+        text-align: left;
+        margin: 3em;
+        box-shadow: 2.5em .5em 7em #FFFFFF;
+        height: 20%;
+        margin-top:5em;
+		overflow: wrap;
+		border-radius: .5em;
+		margin-right: auto;
+		margin-left: auto;
+    }
+
+	.desktop1 {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 100%;
+		margin: 0 auto;
+		height: auto;
+		overflow: wrap;
+		border-radius: .5em;
+		margin-top: 2em;
+	}
+	
+	.desktop2 {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 95%;
+        margin: 0 auto;
+        box-shadow: 2.5em .5em 7em #FFFFFF;
+        height: 20%;
+		overflow: wrap;
+		border-radius: .5em;
+		display: none;
+	}
+
+	.mobile {
+		background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 100%;
+		margin: 0 auto;
+		height: auto;
+		overflow: wrap;
+		border-radius: .5em;
+		margin-top: 2em;
+	}
+
+	
+
+
+	#imageblock {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+    #container {
+        float: right;
+        width: 100%;
+        height: 80em;
+        background-image: url(images/bgbetter.jpg);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
+
+	}
+	
+	#container2 {
+		float: right;
+        width: 100%;
+        height: 80em;
+        overflow: auto;
+	}
+
+/*DESKTOP VIEWPORT*/
+@media only screen and (min-width:769px) {
+
+    nav {
+        background-color: #FFFFFF;
+        color: #000000;
+        text-align: left;
+        font-size: .9em;
+		font-family: "Arial Black", Gadget, sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+        object-position: bottom;
+        padding-top: 45em;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #000000;
+	}
+	
+	p {
+		font-size: 1.5em;
+	}
+
+    header {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 20%;
+        text-align: center;
+        font-size: 2em;
+		margin: 3em;
+		border-radius: .25em;
+	}
+	
+
+	dt {
+		font-weight: bold;
+		font-size: 2em;
+		padding: 1em;
+		text-align: center;
+	}
+
+	dd{
+		text-align: center;
+		padding: 1em;
+		font-size: 1.25em;
+	}
+
+	dl img {
+	
+		width: 20%;
+		border-radius: .75em;
+		padding-left: 2em;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	audio {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 20%;
+	}
+
+	video, iframe {
+		width: 50%;
+		height: auto;
+		border-radius: .75em;
+		margin: 3em;
+		object-fit: fill;
+		display: flex;
+		min-height: 300px;
+	}
+
+	input {
+		margin: 1em;
+		width: 30%;
+	}
+	
+	
+	textarea {
+		margin: 1em;
+	}
+
+	table, td, th{
+		border: 1px solid #FFFFFF;
+		border-collapse: collapse;
+	}
+
+	td{
+		width: 20%;
+		text-align: center ;
+		padding: .5em;
+	}
+
+	th {
+		text-align: center;
+		font-size: 1.2em;
+		padding: 1.5em;
+	}
+
+	ol {
+		text-align: left;
+	}
+	caption {
+		font-size: 1.2em;
+	}
+	td:first-child {
+		width: 5%;
+		font-weight: bold;
+	}
+	.desktop1 p {
+		font-size: 1.5em;
+	}
+
+	.desktop1 li {
+		font-size: 1.25em;
+	}
+	.minor {
+		padding-left: 18em;
+		margin-right: auto;
+		margin-left: auto;
+	
+	}
+	
+	.padleft
+	{
+		padding-left: 15em;
+	}
+    .nav {
+        width: 14%;
+        height: 50em;
+        display: block;
+        float: left;
+    }
+
+    .desktop {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 70%;
+        text-align: left;
+        margin: 3em;
+        box-shadow: 2.5em .5em 7em #FFFFFF;
+        height: 20%;
+        margin-top:25em;
+		overflow: wrap;
+		border-radius: .5em;
+		margin-right: auto;
+		margin-left: auto;
+    }
+
+	.desktop1 {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 70%;
+        margin: 0 auto;
+        box-shadow: 2.5em .5em 7em #FFFFFF;
+        height: 20%;
+		overflow: wrap;
+		border-radius: .5em;
+	}
+	
+	.desktop2 {
+        background-color: #471743;
+        color: #d5d5d5;
+        padding: 1em;
+        width: 95%;
+        margin: auto;
+        box-shadow: 2.5em .5em 7em #FFFFFF;
+        height: 20%;
+		overflow: wrap;
+		border-radius: .5em;
+		display: inline-block;
+		padding-left: 2em;
+		margin-left: 1em;
+	}
+    .mobile {
+        display:none;
+    }
+
+
+	.hobbies {
+		border-radius: .75em;
+		margin: 3em;
+		width: 15%;
+	}	
+
+	#brawl {
+		width: 50%;
+		border-radius: .75em;
+		margin: 3em;
+	}
+
+
+    #container {
+        float: right;
+        width: 85%;
+        height: 80em;
+        background-image: url(images/bgbetter.jpg);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
+
+	}
+	
+	#container2 {
+		float: right;
+        width: 85%;
+        height: 80em;
+        background-image: url(images/bgbetter.jpg);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: auto;
+
+	}
+	}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* template code
+		#container {
+			width: 80%
+		}
+		#chairs {
+			width:	150%;
+		}
+		/*adds margin and padding to the nav unordered list
+		nav ul {
+			margin: 0;
+			padding-left: .5%;
+			padding-right: .5%;
+		}
+
+		/*adds rounded corners, adds padding and margins and makes it an appropriate size for the items in the nav list
+		nav li {
+			border-radius: 0;
+			margin-left: 0;
+			margin-right: 0;
+			padding: 0;
+			width: 20%;
+			white-space:nowrap;
+		}
+
+		/* makes the links in the nav section this size and adds padding
+		nav li a {
+			display: inline-block;
+			padding: .7em;
+			font-size: 1.25em;
+		}
+		/* makes it so the link changes from white to blue and bigger when u hover over it
+		nav li a:link {
+			color: #FFFFFF;
+		}
+		nav li a:hover {
+			color: #CCFFCC;
+			font-size:1.5em;
+		}
+		/*adds a box with a brown shadow to the main element
+		main {
+			border: none;
+			border-radius: 1em;
+			box-shadow: 1em 1em 1em #331400;
+			margin-top:1em;
+			background-color: #FFFFFF;
+			overflow: auto;
+			}
+
+
+		/* makes the background a gradient from white to blue for each major browser
+		body {
+			background: -moz-linear-gradient(#FFFFFF,#3366cc);
+			background: -o-linear-gradient(#FFFFFF, #3366cc);
+			background: -webkit-linear-gradient(#FFFFFF,#3366CC);
+			background: linear-gradient(#FFFFFF, #3366CC);
+
+		}
+		/* changes the width and height of the article elements within the section elements and makes it float left
+		section article{
+			width: 22%;
+			float: left;
+			height: 15em;
+		}
+}
+*/
