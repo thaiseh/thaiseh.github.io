@@ -1,0 +1,247 @@
+/* Style sheet created by: Thaís Emrich Henriques, 05/23/2020 */
+
+/* Styles for Mobile Layout */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #E0F0FF;
+}
+
+img {
+	max-width:100%;
+}
+
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000066;
+}
+
+#banner {
+	text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list*/
+nav ul {
+	padding: 0;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+/*Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margin and padding for list items within the navigation*/
+
+nav li {
+	background-color: #000066;
+	list-style-type: none;
+	margin: .4em;
+	padding: .5em;
+}
+
+/*Style changes navigation link text color to white and removes the underline*/
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/*aligns h3 elements within the article element and figure elements to the center*/
+
+article h3, figure {
+	text-align: center;
+}
+
+/*changes the text color of the figure caption*/
+figcaption {
+	color: #000066;
+}
+
+/*adds padding to the section element*/
+
+section {
+	padding: 1em;
+}
+
+/*adds margins, padding and changes the background color of the article element*/
+
+article {
+	margin: 1em;
+	padding: 1em;
+	background-color: #ACB7E6;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+label {
+	display: inline-block;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+#question {
+	margin-top: .3em;
+}
+
+#questions {
+	margin-top: .3em;
+}
+
+
+.button {
+	display: inline;
+}
+
+.svc {
+	display:inline-block;
+}
+
+/* Style displays the mobile class*/
+.mobile {
+	display: inline;
+}
+
+/*TABLET VIEWPORT*/
+@media only screen and (min-width:481px) {
+
+
+	/*this style adds padding and margins to the items in the navigation list and makes them display and float left and sets it to an appropriate size for tablet view*/
+	nav li {
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 18%;
+	}
+
+	/* this style clears the float left from the main section*/
+	main {
+		clear: left;
+	}
+
+	label {
+		float: left;
+		padding-right: .5em;
+		text-align: right;
+		width: 8em;
+	}
+
+	/* these 2 styles makes it so the mobile content does not appear and the desktop content does*/
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: inline;
+	}
+}
+
+/*DESKTOP VIEWPORT*/
+@media only screen and (min-width:769px) {
+
+		/*this makes the container fill most of the page*/
+		#container {
+			width: 80%
+		}
+		#chairs {
+			width:	150%;
+		}
+		/*adds margin and padding to the nav unordered list*/
+		nav ul {
+			margin: 0;
+			padding-left: .5%;
+			padding-right: .5%;
+		}
+
+		/*adds rounded corners, adds padding and margins and makes it an appropriate size for the items in the nav list*/
+		nav li {
+			border-radius: 0;
+			margin-left: 0;
+			margin-right: 0;
+			padding: 0;
+			width: 20%;
+			white-space:nowrap;
+		}
+
+		/* makes the links in the nav section this size and adds padding*/
+		nav li a {
+			display: inline-block;
+			padding: .7em;
+			font-size: 1.25em;
+		}
+		/* makes it so the link changes from white to blue and bigger when u hover over it*/
+		nav li a:link {
+			color: #FFFFFF;
+		}
+		nav li a:hover {
+			color: #CCFFCC;
+			font-size:1.5em;
+		}
+		/*adds a box with a brown shadow to the main element*/
+		main {
+			border: none;
+			border-radius: 1em;
+			box-shadow: 1em 1em 1em #331400;
+			margin-top:1em;
+			background-color: #FFFFFF;
+			overflow: auto;
+			}
+
+
+		/* makes the background a gradient from white to blue for each major browser*/
+		body {
+			background: -moz-linear-gradient(#FFFFFF,#3366cc);
+			background: -o-linear-gradient(#FFFFFF, #3366cc);
+			background: -webkit-linear-gradient(#FFFFFF,#3366CC);
+			background: linear-gradient(#FFFFFF, #3366CC);
+
+		}
+		/* changes the width and height of the article elements within the section elements and makes it float left*/
+		section article{
+			width: 22%;
+			float: left;
+			height: 15em;
+		}
+}
