@@ -4,11 +4,15 @@
 
  nav {
         background-color: #471743;
-        color: #FFFFFFF;
         text-align: right;
-        font-size: 1em;
-        font-family: "Arial Black", Gadget, sans-serif;
     }
+nav li {
+	list-style-type: none;
+	color: #d5d5d5;
+	display:inline;
+	font-size: 2em;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
 
 header {
         background-color: #471743;
