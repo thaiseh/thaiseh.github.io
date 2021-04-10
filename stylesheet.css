@@ -9,14 +9,13 @@
 nav li {
 	list-style-type: none;
 	display:inline;
-	padding: 1em;
-	margin: 1em.
 }
 
 nav li a {
 	color: #d5d5d5;
 	font-size: 2em;
 	font-family: "Arial Black", Gadget, sans-serif;
+	margin: 0em 1em;
 }
 
 
