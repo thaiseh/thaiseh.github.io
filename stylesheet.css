@@ -61,8 +61,6 @@ a {
 	
 	
 figure {
-	width:25%;
-	padding: 1em;
 	position: relative;
 }
 
@@ -71,6 +69,7 @@ figcaption {
 	position: absolute;
 	top: 50%;
 	right: 50%;
+	font-size: .75em;
 }
 
 figure:hover figcaption {
