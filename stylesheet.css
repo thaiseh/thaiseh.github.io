@@ -2,7 +2,7 @@
 
 /* Styles for Mobile Layout */
 
- nav {
+nav {
         background-color: #471743;
         text-align: right;
     }
@@ -51,6 +51,15 @@ a {
 
 /* Styles for DESKTOP Layout*/
 @media only screen and (min-width:769px) {
+.gallery {
+	column-count: 2;
+	column-gap: 40px;
+	column-rule-style: groove;
+	column-rule-width: 5px;
+	column-rule-color: #d5d5d5;
+}
+	
+	
 figure {
 	width:25%;
 	padding: 1em;
