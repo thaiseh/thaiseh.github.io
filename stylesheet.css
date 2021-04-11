@@ -29,7 +29,7 @@ header {
 	margin: 0em 1em;
 	}
 
-.container {
+.container, body {
 	background-color: #471743;
 }
 
