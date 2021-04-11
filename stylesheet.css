@@ -38,9 +38,15 @@ li {
 	text-align: center;
 }
 
-h2, p, button {
+h2, h3 {
 	color: #d5d5d5;
 	text-align: center;
+}
+
+p {
+	color: #d5d5d5;
+	text-align: center;
+	padding-top: 20px;
 }
 
 
