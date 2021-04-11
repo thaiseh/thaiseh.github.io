@@ -97,8 +97,8 @@ figure {
 figcaption {
 	visibility:hidden;
 	position: absolute;
-	top: 200px;
-	left: 50px;
+	top: 50%;
+	left: 50%;
 	font-size: 1.25em;
 	padding: 10px;
 }
