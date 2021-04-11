@@ -38,12 +38,7 @@ li {
 	text-align: center;
 }
 
-h2, h3 {
-	color: #d5d5d5;
-	text-align: center;
-}
-
-p {
+h2, h3, p {
 	color: #d5d5d5;
 	text-align: center;
 	padding: 20px;
