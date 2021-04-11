@@ -33,7 +33,10 @@ a {
 	color: #d5d5d5;
 }
 
-
+li {
+	list-style-type: none;
+	color: #d5d5d5;
+}
 
 h3, p {
 	color: #d5d5d5;
