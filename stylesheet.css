@@ -55,9 +55,13 @@ figure {
 	padding: 1em;
 }
 
-.container, body, img {
+.container, body {
 	background-color: #471743;
 	margin: auto;
+}
+
+img {
+	self-align: center;
 }
 
 
