@@ -49,7 +49,7 @@ figure {
 	padding: 1em;
 }
 
-.container, body {
+.container, body, img {
 	background-color: #471743;
 	margin: auto;
 }
