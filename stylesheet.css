@@ -22,7 +22,7 @@ nav li a {
 
 
 header {
-        background-color: #9932CC;
+        background-color: #4b0082;
 	box-shadow: 10px 5px 5px #DA70D6;
 	padding: 20px;
         color: #d5d5d5;
@@ -30,6 +30,7 @@ header {
         font-size: 2em;
 	margin: 30px auto;
 	width: 30%;
+	border-radius: 25px;
 }
 a {
 	color: #d5d5d5;
@@ -39,6 +40,7 @@ li {
 	list-style-type: none;
 	color: #d5d5d5;
 	text-align: center;
+	font-size: 1.25em;
 }
 
 h2, h3 {
@@ -86,6 +88,7 @@ img, button {
 	column-rule-style: groove;
 	column-rule-width: 5px;
 	column-rule-color: #d5d5d5;
+	margin-top: 40px;
 }
 	
 	
