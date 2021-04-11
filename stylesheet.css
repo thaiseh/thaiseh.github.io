@@ -64,7 +64,7 @@ figcaption {
 	right: 300px;
 }
 
-figure:hover + figcaption {
+figure:hover, figcaption {
 	visibility: visible;
 	color: d5d5d5;
 	background-color:#471743;
