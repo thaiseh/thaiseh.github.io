@@ -78,7 +78,7 @@ figure {
 figcaption {
 	visibility:hidden;
 	position: absolute;
-	top: 50px;
+	top: 150px;
 	left: 50px;
 	font-size: 1.75em;
 }
@@ -90,6 +90,6 @@ figure:hover figcaption {
 	border-radius: 25px;
 }
 
-figure:hover {
-	opacity: .3;
+figure:hover img{
+	opacity: .5;
 }
