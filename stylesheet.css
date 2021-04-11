@@ -53,15 +53,18 @@ a {
 figure {
 	width:25%;
 	padding: 1em;
+	position: relative;
 }
 
 figcaption {
 	visibility:hidden;
+	position: absolute;
+	top: 150px;
+	right: 300px;
 }
 
 figure:hover + figcaption {
 	visibility: visible;
 	color: d5d5d5;
 	background-color:#471743;
-	
 }
