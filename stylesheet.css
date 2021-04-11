@@ -55,12 +55,8 @@ figure {
 }
 
 
-.tarot-imgs {
-	max-heigth: 400px;
-}
-
 #research-img {
-	filter: blur(10px);
+	filter: blur(5px);
 }
 
 
