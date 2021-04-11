@@ -91,4 +91,9 @@ figure:hover figcaption {
 	visibility: visible;
 	color: #d5d5d5;
 	background-color:#471743;
+	border-radius: 25px;
+}
+
+figure:hover {
+	opacity: .3;
 }
