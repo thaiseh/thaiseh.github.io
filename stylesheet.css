@@ -77,8 +77,8 @@ figcaption {
 	visibility:hidden;
 	position: absolute;
 	top: 50%;
-	right: 50%;
-	font-size: .75em;
+	left: 50%;
+	font-size: 1.75em;
 }
 
 figure:hover figcaption {
