@@ -28,10 +28,11 @@ header {
         font-size: 2.5em;
 	margin: 0em 1em;
 	}
-
-.container, body {
-	background-color: #471743;
+a {
+	color: #d5d5d5;
 }
+
+
 
 h3, p {
 	color: #d5d5d5;
@@ -43,15 +44,18 @@ figure {
 	padding: 1em;
 }
 
+.container, body {
+	background-color: #471743;
+}
+
 
 .tarot-imgs {
 	heigth: 400px;
 }
 
-a {
-	color: #d5d5d5;
+#research-img {
+	filter: blur(10px);
 }
-
 
 
 /* Styles for DESKTOP Layout*/
