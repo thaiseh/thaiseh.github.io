@@ -53,7 +53,7 @@ figure {
 
 
 .tarot-imgs {
-	heigth: 400px;
+	max-heigth: 400px;
 }
 
 #research-img {
