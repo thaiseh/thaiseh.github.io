@@ -17,7 +17,7 @@ nav li a {
 	color: #d5d5d5;
 	font-size: 1.25em;
 	font-family: "Arial Black", Gadget, sans-serif;
-	margin: 0em 1em;
+	margin: auto;
 	text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ header {
         color: #d5d5d5;
         text-align: center;
         font-size: 1.5em;
-	margin: auto;
+	margin: 1em auto;
 	border-radius: 25px;
 	border: 3px groove #DA70D6;
 	width:80%;
@@ -106,6 +106,10 @@ header {
 nav li {
 	font-size:1.75em;
 	display: inline;
+}
+
+nav li a {
+	margin: 0em 1em;
 }
 	
 h2, h3 {
