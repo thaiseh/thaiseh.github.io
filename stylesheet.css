@@ -17,7 +17,7 @@ nav li a {
 	color: #d5d5d5;
 	font-size: 1.25em;
 	font-family: "Arial Black", Gadget, sans-serif;
-	margin: auto;
+	margin: auto 0px;
 	text-decoration: none;
 }
 
