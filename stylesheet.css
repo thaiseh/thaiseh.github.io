@@ -10,7 +10,7 @@ nav {
 
 nav li {
 	list-style-type: none;
-	display:block;
+	display:block-inline;
 }
 
 nav li a {
@@ -31,6 +31,7 @@ header {
 	margin: auto;
 	border-radius: 25px;
 	border: 3px groove #DA70D6;
+	width:80%;
 }
 a {
 	color: #d5d5d5;
@@ -86,7 +87,7 @@ img, button, audio {
 }
 
 .desktop {
-	visibility: hidden;
+	display: none;
 }
 
 
@@ -128,11 +129,11 @@ p {
 }
 
 .mobile {
-	visibility: hidden;
+	display: none;
 }
 
 .desktop {
-	visibility: visible;
+	display: block;
 }
 	
 	
