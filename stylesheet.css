@@ -28,8 +28,7 @@ header {
         color: #d5d5d5;
         text-align: center;
         font-size: 2em;
-	margin: 30px auto;
-	width: 30%;
+	margin: auto;
 	border-radius: 25px;
 }
 a {
@@ -47,14 +46,14 @@ h2, h3 {
 	color: #d5d5d5;
 	text-align: center;
 	padding: 20px;
-	margin: 0px 400px;
+	margin: auto;
 }
 
 p {
 	color: #d5d5d5;
 	text-align: center;
 	padding: 25px ;
-	margin: 0px 400px;
+	margin: auto;
 	font-size: 1.5em;
 }
 
@@ -62,6 +61,11 @@ p {
 figure {
 	max-width: 100%;
 	padding: 1em;
+}
+
+figcaption {
+	color: #d5d5d5;
+	font-size:1.25em;
 }
 
 .container, body {
@@ -72,6 +76,7 @@ figure {
 img, button, audio {
 	display: block;
 	margin: auto;
+	max-width:100%;
 }
 
 
@@ -82,6 +87,26 @@ img, button, audio {
 
 /* Styles for DESKTOP Layout*/
 @media only screen and (min-width:769px) {
+	
+header {
+	padding: 20px;
+        font-size: 2em;
+	margin: 30px auto;
+	width: 30%;
+}
+	
+h2, h3 {
+	padding: 20px;
+	margin: 0px 400px;
+}
+
+p {
+	padding: 25px ;
+	margin: 0px 400px;
+	font-size: 1.5em;
+}
+
+	
 .gallery {
 	column-count: 2;
 	column-gap: 40px;
