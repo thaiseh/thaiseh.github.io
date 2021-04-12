@@ -30,7 +30,7 @@ header {
         font-size: 1.5em;
 	margin: auto;
 	border-radius: 25px;
-	border: 2px solid #DA70D6;
+	border: 3px groove #DA70D6;
 }
 a {
 	color: #d5d5d5;
