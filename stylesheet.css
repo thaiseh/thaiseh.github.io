@@ -10,14 +10,14 @@ nav {
 
 nav li {
 	list-style-type: none;
-	display:inline;
+	display:block;
 }
 
 nav li a {
 	color: #d5d5d5;
-	font-size: 1em;
+	font-size: 1.25em;
 	font-family: "Arial Black", Gadget, sans-serif;
-	margin: 0em 1em;
+	margin: auto;
 }
 
 
@@ -101,8 +101,9 @@ header {
 	font-size:2em;
 }
 
-nav li a {
+nav li {
 	font-size:1.75em;
+	display: inline;
 }
 	
 h2, h3 {
