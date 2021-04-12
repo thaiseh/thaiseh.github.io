@@ -85,6 +85,10 @@ img, button, audio {
 	filter: blur(3px);
 }
 
+.desktop {
+	visibility: hidden;
+}
+
 
 /* Styles for DESKTOP Layout*/
 @media only screen and (min-width:769px) {
@@ -120,6 +124,14 @@ p {
 	column-rule-width: 5px;
 	column-rule-color: #d5d5d5;
 	margin-top: 40px;
+}
+
+.mobile {
+	visibility: hidden;
+}
+
+.desktop {
+	visibility: visible;
 }
 	
 	
