@@ -59,6 +59,6 @@ function randomCard() {
       break;
   }
       
-document.getElementById("output").innerHTML = '<p> Your card is the ' + cardName + '. The song that embodies this card, in my opinion, is ' + song + ' by ' + artist +
+document.getElementById("output").innerHTML = '<p> Your card is the ' + cardName + '. The song that embodies this card is, in my opinion, "' + song + '" by ' + artist +
   '. You can listen to it below.</p> <br> <img src="' + imageLocation + '" class="tarot-imgs" width=400 height=600><br> <audio controls> <source src="'+ songLocation + '" type="audio/mp3"> Your browser does not support the audio element.</audio>';
 }
